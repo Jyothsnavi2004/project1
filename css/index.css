@@ -1698,7 +1698,7 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
     }
 }
 /* Mobile - m Styles */
-@media screen and (min-width:321)(max-width: 480px) { /* Or any breakpoint you deem appropriate for "mobile-m" */
+@media screen and (min-width:321) and (max-width: 480px) { /* Or any breakpoint you deem appropriate for "mobile-m" */
 
     .nav {
         flex-direction: column;
