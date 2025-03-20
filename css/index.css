@@ -1868,7 +1868,7 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
     }
 }
 /* TV Styles (Typically 1920px and above, adjust as needed) */
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 4k) {
 
     body {
         font-size: 20px; /* Larger base font size */
@@ -1935,7 +1935,6 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
         padding-right: 200px;
         padding-top: 100px;
     }
-
     .container {
         grid-template-columns: repeat(7, 1fr); /* Even more columns for TVs */
         margin-left: 200px;
