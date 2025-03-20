@@ -67,11 +67,7 @@
 } 
 
 .tags {
-    /* text-decoration: none; */
-    /* margin-right: 15px; */
     display: flex;
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
     gap: 40px;
     text-decoration: none;
     
@@ -80,16 +76,11 @@
     text-decoration: none;
 }
 .searchbar{
-    /* display: flex; */
     align-items: center;
     height: 30px;
     width: 300px;
     margin-top: 5px;
-
-    /* border-right: none; */
 }
-
-
 .heart{
     
     height: 35px;
@@ -156,9 +147,6 @@
     border: 1px solid green;
     width: 250px;
     text-align: center;
-    /* margin-left: 60px; */
-
-
 }
 .bags{
     height: 250px;
@@ -168,9 +156,6 @@
     border: 1px solid green;
     width: 250px;
     text-align: center;
-    
-
-
 }
 .sandal{
     height: 250px;
@@ -180,9 +165,6 @@
     border: 1px solid green;
     width: 250px;
     text-align: center;
-    
-
-
 }
 
 .scarfcap{
@@ -193,9 +175,6 @@
     border: 1px solid green;
     width: 250px;
     text-align: center;
-    
-
-
 }
 .shoes{
     height: 250px;
@@ -205,20 +184,13 @@
     border: 1px solid green;
     width: 250px;
     text-align: center;
-    
-    
-
-
 }
 .container{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    /* gap: 10px; */
     align-items: center;
     justify-content: space-evenly;
     margin-left: 80px;
-    /* margin-right: 10px; */
-    /* width: 100%; */
     margin-top: 0px;
     
 }
@@ -255,13 +227,9 @@ h2{
     border-radius: 50%;
     background-color: lightgrey;
     margin-right: 30px;
-    
-    
-
 }
 .symbols{
     display: flex;
-    /* flex-wrap: wrap; */
     float: inline-end;
     justify-content: space-evenly;
     text-align: center;
@@ -298,7 +266,6 @@ h2{
 border: 2px solid grey;
 height: 420px;
 width: 350px;
-/* padding-left: 15px; */
 transition: transform 0.3s ease, opacity 0.3s ease;
 
 }
@@ -320,12 +287,9 @@ transition: transform 0.3s ease, opacity 0.3s ease;
 .gridcontainer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* gap: 10px; */
     align-items: center;
     justify-content: space-evenly;
     margin-left: 80px;
-    /* margin-right: 10px; */
-    /* width: 100%; */
     margin-top: 20px;
 }
 .griditem1:hover .gridimg1{
@@ -1102,7 +1066,7 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
     
 } 
 /* Mobile Styles */
-@media screen and (min-width:0px) and (max-width: 768px) {
+@media screen and (min-width:427px) and (max-width: 768px) {
     .nav {
       flex-direction: column;
       align-items: flex-start;
@@ -1313,18 +1277,17 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
   /* Tablet Styles */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .nav {
-        flex-wrap: wrap; /* Allows items to wrap onto new lines if needed */
-        justify-content: space-evenly; /* Distributes items evenly */
+        flex-wrap: wrap; 
+        justify-content: space-evenly; 
     }
 
     .tags {
-        width: 0%; /* Take full width */
-        justify-content: center; /* Center the tags */
-        margin-bottom: 10px; /* Add some space below */
+        width: 0%;
+        justify-content: center; 
+        margin-bottom: 10px; 
     }
 
     .searchbar {
-        /* width: 40%; Adjusted width */
         margin-top: 10px;
         width: 20px;
         
@@ -1333,28 +1296,28 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
     }
 
     .searchicon {
-        margin-left: -40px; /* Adjust search icon position */
+        margin-left: -40px; 
     }
 
     .heart, .cart {
-        margin-left: 20px; /* Increase spacing */
+        margin-left: 20px;
     }
 
     .homeimg {
-        width: 80%; /* Adjusted image width */
+        width: 80%; 
         padding-right: 0;
-        margin: 20px auto; /* Center image */
+        margin: 20px auto;
         display: block;
     }
 
     .container {
-        grid-template-columns: repeat(3, 1fr); /* Adjust grid layout */
+        grid-template-columns: repeat(3, 1fr); 
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .gridcontainer {
-        grid-template-columns: repeat(2, 1fr); /* Adjust grid layout */
+        grid-template-columns: repeat(2, 1fr); 
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -1365,59 +1328,59 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
     }
 
     .deal1, .deal2 {
-        width: 90%; /* Adjusted deal width */
+        width: 90%; 
         margin-bottom: 20px;
     }
 
     .container2 {
-        grid-template-columns: repeat(2, 1fr); /* Adjusted container2 grid */
+        grid-template-columns: repeat(2, 1fr);
         margin-left: 20px;
         margin-right: 20px;
     }
 
     .newsletter-signup {
-        flex-direction: row; /* Keep newsletter signup in a row */
-        justify-content: space-around; /* Distribute items */
+        flex-direction: row; 
+        justify-content: space-around; 
         align-items: center;
     }
 
     .newsletter-form {
-        width: 50%; /* Adjust form width */
+        width: 50%; 
     }
 
     footer {
-        flex-direction: row; /* Keep footer in a row */
+        flex-direction: row; 
         justify-content: space-around;
-        flex-wrap: wrap; /* Allows footer items to wrap */
+        flex-wrap: wrap; 
     }
 
     footer div {
-        width: 45%; /* Adjusted footer item width */
+        width: 45%; 
         margin-bottom: 20px;
     }
 
     .myaccountpage {
-        flex-direction: row; /* Keep my account page in a row */
+        flex-direction: row; 
     }
 
     .accounttable, .message {
-        width: 45%; /* Adjusted account table and message width */
+        width: 45%; 
         margin: 20px;
     }
 
     .comparisontable {
-        width: 95%; /* Adjusted comparison table width */
+        width: 95%; 
         margin: 20px auto;
     }
 
     .login {
-        flex-direction: row; /* Keep login in a row */
+        flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
 
     .loginform, .createaccount {
-        width: 45%; /* Adjusted login form and create account width */
+        width: 45%; 
         margin: 20px;
     }
 
@@ -1434,128 +1397,126 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
 /* Laptop Styles (1024px) */
 @media screen and (min-width: 1024px) and (max-width:1439px) {
     .nav {
-        /* Adjust navigation for laptops */
         padding: 15px 20px;
         justify-content: space-between;
     }
 
     .tags {
-        /* Adjust tags for laptops */
         gap: 10px;
         padding-left: 120px;
     }
 
     .searchbar {
-        /* Adjust search bar for laptops */
         width: 350px;
         padding-left: 110px;
     }
 
     .searchicon {
-        /* Adjust search icon position */
+       
         margin-left: -60px;
     }
 
     .heart, .cart {
-        /* Adjust icons spacing */
+        
         margin-left: 15px;
     }
     .heart{
         padding-right: 10px;
     }
     .cart{
-        margin-left: 700px;
+        margin-left: 750px;
+        
     }
     
 
     .logo {
-        /* Adjust logo padding */
+       
         padding-left: 2px;
     }
 
     .promotion, .trending, .collection, .off {
-        /* Adjust text styles for laptops */
+        
         padding-left: 80px;
     }
 
     .homeimg {
-        /* Adjust home image for laptops */
+        
         width: 50%;
         padding-right: 120px;
         padding-top: 50px;
     }
 
     .container {
-        /* Adjust container grid for laptops */
+        
         grid-template-columns: repeat(5, 1fr);
         margin-left: 100px;
     }
 
     .gridcontainer {
-        /* Adjust grid container for laptops */
+   
         grid-template-columns: repeat(3, 1fr);
         margin-left: 100px;
     }
 
     .deals {
-        /* Adjust deals for laptops */
+       
         flex-direction: row;
     }
 
     .deal1, .deal2 {
-        /* Adjust deal items for laptops */
+        
         width: 45%;
     }
 
     .container2 {
-        /* Adjust container2 grid for laptops */
+        
         grid-template-columns: repeat(3, 1fr);
     }
 
     .newsletter-signup {
-        /* Adjust newsletter signup for laptops */
+     
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
 
     .newsletter-form {
-        /* Adjust newsletter form for laptops */
+       
         width: 40%;
     }
 
     footer {
-        /* Adjust footer for laptops */
+        
         flex-direction: row;
         justify-content: space-around;
     }
 
     footer div {
-        /* Adjust footer items for laptops */
+  
         width: 20%;
     }
 
     .accounttable, .message {
-        /* Adjust account table and message for laptops */
+        
         width: 40%;
         margin: 50px;
     }
 
     .comparisontable {
-        /* Adjust comparison table for laptops */
+      
         width: 90%;
         margin: 50px auto;
     }
 
     .login {
-        /* Adjust login for laptops */
+        
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
     }
 
     .loginform, .createaccount {
-        /* Adjust login forms for laptops */
+       
         width: 35%;
         margin: 50px;
     }
@@ -1564,5 +1525,500 @@ ul .homeview4, .shopview4, .myaccountview4, .compareview4{
     }
     .gridimg1, .gridimg2, .gridimg3, .gridimg4, .gridimg5, .gridimg6, .gridimg7, .gridimg8, .gridimg9, .gridimg10, .gridimg11 {
         width: 300px;
+    }
+}
+/* Small Mobile Styles (0px to 320px) */
+ @media screen and (min-width: 0px) and (max-width: 320px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .logo {
+        padding-left: 5px;
+        padding-bottom: 5px;
+        font-size: 1.2em; 
+    }
+
+    .tags {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        padding-left: 5px;
+    }
+
+    .searchbar {
+        width: 90%;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .searchicon {
+        margin-left: -80px; 
+        margin-top: -20px;
+        padding-left: -90px;
+    }
+
+    .heart, .cart {
+        margin-left: 195px;
+    }
+    .cart{
+        margin-left:100%;
+        margin-top: -35px;
+    }
+    .heart{
+        margin-left: 80%;
+        margin-top: -40px;
+    }
+
+    .super1, .super2 {
+        margin-right: -5px;
+    }
+
+    .homeimg {
+        width: 90%;
+        padding-right: 0;
+        padding-top: 10px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .promotion, .trending, .collection, .off, #first, h2 {
+        padding-left: 5px;
+        font-size: 0.8em; 
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .gridcontainer, .gridcontainer1 {
+        grid-template-columns: 1fr;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .griditem1, .griditem2, .griditem3, .griditem4, .griditem5, .griditem6, .griditem7, .griditem8, .griditem9, .griditem10, .griditem11 {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gridimg1, .gridimg2, .gridimg3, .gridimg4, .gridimg5, .gridimg6, .gridimg7, .gridimg8, .gridimg9, .gridimg10, .gridimg11 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .deals {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .deal1, .deal2 {
+        width: 95%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 10px;
+    }
+
+    .container2 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8, .product9 {
+        margin: 5px;
+    }
+
+    .newsletter-signup {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+    }
+
+    .coupon {
+        padding-left: 0;
+        padding-bottom: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+    }
+
+    footer div {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .myaccountpage {
+        flex-direction: column;
+    }
+
+    .accounttable, .message {
+        width: 95%;
+        margin: 5px;
+    }
+
+    .comparisontable {
+        width: 95%;
+        margin: 5px;
+        margin-left: 2.5%;
+    }
+
+    .compareimages td img {
+        height: auto;
+        width: 100%;
+    }
+
+    .login {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loginform, .createaccount {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+    .searchbar{
+        width: 80%;
+    }
+    .searchicon{
+        margin-left: 70%;
+    }
+}
+/* Mobile - m Styles */
+@media screen and (min-width:321)(max-width: 480px) { /* Or any breakpoint you deem appropriate for "mobile-m" */
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px; /* Slightly more padding than very small mobiles */
+    }
+
+    .logo {
+        padding-left: 8px;
+        padding-bottom: 8px;
+        font-size: 1.3em; /* Slightly larger logo */
+    }
+
+    .tags {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding-left: 8px;
+    }
+
+    .searchbar {
+        width: 90%;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+
+    .searchicon {
+        margin-left: 85%; /* Adjust based on searchbar width */
+        margin-top: -28px;
+    }
+
+    .heart, .cart {
+        margin-left: 8px;
+    }
+    .cart{
+        margin-left: 60%;
+        margin-top: -35px;
+    }
+    .heart{
+        margin-left: 70%;
+        margin-top: -40px;
+    }
+
+    .super1, .super2 {
+        margin-right: -3px;
+    }
+
+    .homeimg {
+        width: 800px;
+        /* width: 100%; */
+        padding-top: 15px;
+        height: auto;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        display: block;
+    }
+
+    .promotion, .trending, .collection, .off, #first, h2 {
+        padding-left: 8px;
+        font-size: 0.9em; /* Slightly larger fonts */
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .gridcontainer, .gridcontainer1 {
+        grid-template-columns: 1fr;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .griditem1, .griditem2, .griditem3, .griditem4, .griditem5, .griditem6, .griditem7, .griditem8, .griditem9, .griditem10, .griditem11 {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .gridimg1, .gridimg2, .gridimg3, .gridimg4, .gridimg5, .gridimg6, .gridimg7, .gridimg8, .gridimg9, .gridimg10, .gridimg11 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .deals {
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+    }
+
+    .deal1, .deal2 {
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 15px;
+    }
+
+    .container2 {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .product1, .product2, .product3, .product4, .product5, .product6, .product7, .product8, .product9 {
+        margin: 8px;
+    }
+
+    .newsletter-signup {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+    }
+
+    .coupon {
+        padding-left: 0;
+        padding-bottom: 8px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+    }
+
+    footer div {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .myaccountpage {
+        flex-direction: column;
+    }
+
+    .accounttable, .message {
+        width: 95%;
+        margin: 8px;
+    }
+
+    .comparisontable {
+        width: 95%;
+        margin: 8px;
+        margin-left: 2.5%;
+    }
+
+    .compareimages td img {
+        height: auto;
+        width: 100%;
+    }
+
+    .login {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .loginform, .createaccount {
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    .searchbar{
+        width: 80%;
+    }
+    .searchicon{
+        margin-left: 70%;
+    }
+}
+/* TV Styles (Typically 1920px and above, adjust as needed) */
+@media screen and (min-width: 1441px) {
+
+    body {
+        font-size: 20px; /* Larger base font size */
+    }
+
+    .nav {
+        padding: 30px 60px;
+    }
+
+    .tags {
+        gap: 80px;
+        font-size: 1.4em;
+    }
+
+    .searchbar {
+        width: 600px;
+        height: 50px;
+    }
+
+    .searchicon {
+        margin-left: -80px;
+    }
+
+    .heart, .cart {
+        margin-left: 30px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .super1, .super2 {
+        height: 25px;
+        width: 25px;
+        font-size: 0.9em;
+        top: -12px;
+        right: -12px;
+    }
+
+    .logo {
+        padding-left: 200px;
+        font-size: 2.5em;
+    }
+
+    .promotion, .trending, .collection, .off {
+        padding-left: 120px;
+        font-size: 1.4em;
+    }
+
+    .trending {
+        font-size: 70px;
+    }
+
+    .collection {
+        font-size: 70px;
+    }
+
+    #first {
+        height: 70px;
+        width: 180px;
+        font-size: 1.2em;
+    }
+
+    .homeimg {
+        width: 70%;
+        padding-right: 200px;
+        padding-top: 100px;
+    }
+
+    .container {
+        grid-template-columns: repeat(7, 1fr); /* Even more columns for TVs */
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .gridcontainer {
+        grid-template-columns: repeat(5, 1fr); /* More grid columns on TVs */
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .griditem1, .griditem2, .griditem3, .griditem4, .griditem5, .griditem6, .griditem7, .griditem8, .griditem9, .griditem10, .griditem11{
+        width: 450px;
+        height: 550px;
+    }
+
+    .gridimg1, .gridimg2, .gridimg3, .gridimg4, .gridimg5, .gridimg6, .gridimg7, .gridimg8, .gridimg9, .gridimg10, .gridimg11 {
+        width: 430px;
+        height: 300px;
+    }
+
+    .deals {
+        justify-content: space-around;
+    }
+
+    .deal1, .deal2 {
+        width: 49%;
+        padding: 40px;
+    }
+
+    .container2 {
+        grid-template-columns: repeat(5, 1fr); /* More columns for TVs */
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .container2 img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .newsletter-signup {
+        padding: 40px 80px;
+    }
+
+    .newsletter-form {
+        width: 60%;
+    }
+
+    footer {
+        padding: 40px 80px;
+    }
+
+    footer div {
+        width: 24%;
+    }
+
+    .accounttable, .message {
+        width: 60%;
+        margin: 100px auto;
+    }
+
+    .comparisontable {
+        width: 98%;
+        margin: 100px auto;
+    }
+
+    .login {
+        justify-content: space-around;
+    }
+
+    .loginform, .createaccount {
+        width: 45%;
+        margin: 100px;
+    }
+    .accounttable tr td span{
+        font-size: 1.7em;
+    }
+    .message td{
+        font-size: 1.4em;
+    }
+    .comparisontable tr td{
+        font-size: 1.3em;
     }
 }
